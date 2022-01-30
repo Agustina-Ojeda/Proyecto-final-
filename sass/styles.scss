@@ -1,0 +1,36 @@
+@import "variables";
+@import "content";
+@import "footer";
+@import "header";
+
+body{
+    margin: auto;
+    padding: auto;
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 15px;
+    background-color: map-get($colores, base);
+}
+.nav-link{
+    font-size: 18px;
+    font-family: 'Averia Sans Libre', cursive;
+}
+.nav-link:hover{
+    border-bottom: 1px #745D3F solid;
+}
+.contacto-background{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1013%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(212%2c 210%2c 180%2c 1)'%3e%3c/rect%3e%3cpath d='M1440 0L1275.4 0L1440 6.81z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1275.4 0L1440 6.81L1440 174.39000000000001L874.2 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M874.2 0L1440 174.39000000000001L1440 347.59000000000003L432.78000000000003 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M432.78 0L1440 347.59000000000003L1440 376.22L371.98999999999995 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L485.68 560L0 505.9z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 505.9L485.68 560L692.48 560L0 412.21999999999997z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 412.22L692.48 560L1009.09 560L0 200.33000000000004z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 200.33000000000004L1009.09 560L1126.13 560L0 108.19000000000004z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1013'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+.envios-background{
+    background-color: map-get($colores, fondo-verde);
+}
+section{
+    background-color: map-get($colores, fondo-verde );
+    color: map-get($colores, principal);
+    padding: 20px;
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+.wrapper{
+    text-decoration: none;
+}
